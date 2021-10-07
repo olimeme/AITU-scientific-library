@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+.section-header {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.section-divider {
+    width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+/* navigation bar */
+
+nav {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: rgb(39, 149, 196);
+    transition: 0.2s;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.logo h1{
+    font-size: 28px;
+}
+
+.time {
+    margin-left: 15px;
+}
+
+.lang {
+    margin-right: 15px;
+}
+
+.lang li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.bottom-nav ul{
+    margin-top: 15px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.bottom-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.active {
+    color:rgb(39, 149, 196);
+}
+
+.section {
+    height: 100px;
+    width: 1200px;
+    background-color: aqua;
+}
+
+
+/* footer  */
+.footer-margin {
+    margin-top: 30px;
+}
+
+.footer-header{
+    font-size: 16px;
+}
+
+.footer-list{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list a {
+    color: #D4D4D4;
+}
