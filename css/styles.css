@@ -11,6 +11,7 @@ html {
 }
 
 .section-header {
+    margin-bottom: 30px;
     font-size: 20px;
     text-transform: uppercase;
 }
@@ -109,6 +110,48 @@ a:hover {
     margin-top: -10px;
     font-size: 44px;
 }
+
+/* carousel  */
+
+.carousel {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/* best choice  */
+
+.best {
+    margin-bottom: 20px;
+}
+
+.best-items {
+    text-align: center;
+}
+
+.best h2, h3{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.best h2 {
+    font-size: 20px;
+}
+
+.best h3 {
+    margin-top: -5px;
+    font-size: 18px;
+    color: #D4D4D4;
+}
+
+.best img {
+    width: 225px;
+    height: 300px;
+    margin: 0 auto;
+    align-items: baseline;
+}
+
 /* footer  */
 .footer-margin {
     margin-top: 30px;
